@@ -13,5 +13,10 @@ pipeline {
                 branch: 'main'
             }   
         }
+        stage( 'Buildthecode') {
+            steps {
+                sh 'npm install'
+            }  
+        }
     }
 }
