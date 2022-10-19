@@ -14,11 +14,4 @@ pipeline {
             }   
         }
     }
-    stages {
-        stage( 'Buildthecode') {
-            steps {
-                sh 'npm install'
-            }  
-        }
-    }
 }
