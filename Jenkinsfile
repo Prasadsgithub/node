@@ -15,8 +15,8 @@ pipeline {
         }
         stage( 'Buildthecode') {
             steps {
-                sh 'npm init'
-                sh 'npm run install'
+                sh 'npm install'
+                sh 'npm run build'
             }  
         }
     }
